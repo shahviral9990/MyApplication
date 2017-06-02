@@ -1,0 +1,294 @@
+
+<com.github.florent37.parallax.ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.github.florent37.parallax.ParallaxView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:parallaxVertical="0.3">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cyno" />
+
+        </com.github.florent37.parallax.ParallaxView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="10dp"
+                        android:text="Standupcomendy by Biswa kalyan Rath"
+                        android:textColor="@color/background_color"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:id="@+id/eventvenue"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+                            android:singleLine="false"
+                            android:text="OAT DAIICT Gandhinagar"
+                            android:textIsSelectable="true"
+                            android:textSize="18sp" />
+
+
+                        <ImageButton
+                            android:id="@+id/btneventmap"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+
+
+                            android:background="@null"
+                            android:src="@mipmap/ic_dir" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="10dp"
+                        android:text="Date And Time"
+                        android:textColor="@color/background_color"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/Start_Date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginRight="15dp"
+
+
+                            android:text="28-02-2016\n  20:30:00"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+
+
+                            android:singleLine="false"
+                            android:text="_"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/End_Date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+                            android:singleLine="false"
+                            android:text="28-02-2016\n  23:00:00"
+                            android:textSize="18sp" />
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            />
+                        <ImageButton
+                            android:id="@+id/Reminder"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+android:background="@android:color/transparent"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+android:layout_gravity="right"
+
+
+                            android:src="@mipmap/ic_reminder"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+android:layout_marginBottom="15dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="10dp"
+                        android:text="Details"
+                        android:textColor="@color/background_color"
+                        android:textSize="22sp"
+                        android:textStyle="italic" />
+
+
+                        <TextView
+                            android:id="@+id/details"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="15dp"
+android:textIsSelectable="true"
+
+                            android:text="For Passes Visit:\nhttps://www.almamapper.com/event/synapse-2016/info.aspx"
+                            android:textSize="18sp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/call"
+                                android:layout_width="34dp"
+                                android:layout_height="25dp"
+                                android:textIsSelectable="true"
+android:layout_marginRight="5dp"
+
+                                android:background="@null"
+                                android:src="@mipmap/ic_call" />
+
+                            <TextView
+                                android:id="@+id/Phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+
+                                android:layout_weight="1"
+                                android:gravity="left|center"
+                                android:singleLine="false"
+                                android:text="+918000 70 10 70"
+                                android:textSize="18sp" />
+
+
+                        </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!--
+            <com.github.florent37.parallax.ParallaxView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:parallaxHorizontal="1.2"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/primary_light"
+                    app:cardElevation="4dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="#parallax"
+                        android:textColor="@android:color/white" />
+
+                </android.support.v7.widget.CardView>
+
+            </com.github.florent37.parallax.ParallaxView>
+-->
+
+
+        </LinearLayout>
+
+        <com.github.florent37.parallax.ParallaxView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            app:parallaxVertical="0.5">
+
+
+
+        </com.github.florent37.parallax.ParallaxView>
+
+    </FrameLayout>
+
+</com.github.florent37.parallax.ScrollView>
+

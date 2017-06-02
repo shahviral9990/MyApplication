@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#005951</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="background_color">#009688</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="level_0">#009688</color>
+    <color name="level_1">#005b53</color>
+    <color name="level_2">#e67e22</color>
+    <color name="level_3">#8e44ad</color>
+    <color name="level_4">#f1c40f</color>
+    <color name="level_5">#2ecc71</color>
+    <color name="level_default">#000000</color>
+
+    <color name="font_item_drawer">#000000</color>
+</resources>
